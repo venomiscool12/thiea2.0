@@ -10,12 +10,6 @@ from threading import Thread
 import importlib.util
 
 
-
-
-
-
-
-
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', help='C:\Virtualtest\bananas\bananas',
                     required=True)
