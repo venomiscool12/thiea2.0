@@ -11,7 +11,7 @@ import importlib.util
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--model', help='C:\Virtualtest\bananas\bananas',
+parser.add_argument('--model', help='C:\Virtualtest\thiea2.0\banana2',
                     required=True)
 parser.add_argument('--source', help='Image source, can be image file ("test.jpg"), \
                     image folder ("test_dir"), video file ("testvid.mp4"), index of USB camera ("usb0"), or index of Picamera ("picamera0")',
