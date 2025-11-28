@@ -11,12 +11,12 @@ import importlib.util
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--model', help='C:\Virtualtest\bananas\bananas',
+parser.add_argument('--model', help='C:\Virtualtest\thiea2.0\banana2\Scriptxs2\best.py', \
                     required=True)
 parser.add_argument('--source', help='Image source, can be image file ("test.jpg"), \
                     image folder ("test_dir"), video file ("testvid.mp4"), index of USB camera ("usb0"), or index of Picamera ("picamera0")',
                     required=True)
-parser.add_argument('--thresh', help='0.4")',
+parser.add_argument('--thresh', help='0.7")',
                     default=0.5)
 parser.add_argument('--resolution', help='640x480''), \
                     otherwise, match source resolution',
